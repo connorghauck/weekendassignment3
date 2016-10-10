@@ -69,6 +69,7 @@ if (theCalculation === "add"){
         success:  appendIt()
     });
 }
+appendIt();
 
 });//end of the click function
 
@@ -85,7 +86,7 @@ function appendIt() {
         type: 'GET',
         url: '/calculate',
         success: function (result){
-            console.log(result);
+            // console.log(result);
             $('#answer').empty();
             $('#answer').text(result);
   }

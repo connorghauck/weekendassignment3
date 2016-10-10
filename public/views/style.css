@@ -21,5 +21,16 @@ padding: 10px;
 
 body {
   text-align: center;
-  background-color: skyblue;
+  width: 500px;
+  margin: auto;
+  background-color: lightgrey;
+  padding: 100px;
+}
+
+#container {
+    width: 400px;
+    background-color: skyblue;
+    border-radius: 15px;
+    margin: 40px auto 30px;
+    padding: 10px 10px 10px 10px;
 }

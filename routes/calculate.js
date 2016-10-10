@@ -8,8 +8,8 @@ router.post('/add', function (req, res) {
     console.log(req.body);
     total = [];
     total.push(Number(req.body.numOne) + Number(req.body.numTwo));
-  res.sendStatus(200);
-  console.log('add');
+    res.sendStatus(200);
+    console.log('add');
 });
 
 
